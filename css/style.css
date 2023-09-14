@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.tablink {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 80px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tablink:hover {
+    background-color: #555;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Style the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="button"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="button"]:hover {
+    background-color: #444;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the resume info */
+#resume-info {
+    margin-top: 20px;
+    font-weight: bold;
+}
